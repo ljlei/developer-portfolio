@@ -100,6 +100,17 @@ nav ul li {
 }
 /* Navbar ends */
 
+/* Testimonial section */
+.testimonial {
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 68.75rem;
+  margin: auto;
+  margin-top: 25px;
+}
+
 /* Hero section */
 .hero {
   display: flex;
@@ -108,6 +119,11 @@ nav ul li {
   gap: 2.5rem;
   max-width: 68.75rem;
   margin: auto;
+  
+}
+
+.hero a {
+  color: var(--primary-color);
 }
 
 .hero img {

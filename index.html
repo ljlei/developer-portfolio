@@ -12,13 +12,13 @@
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="assets/icons/apple-touch-icon.png"
+      href="assets/icons/apple-touch-icon-LL.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="assets/icons/favicon-32x32.png"
+      href="assets/icons/favicon-32x32-LL.png"
     />
 
     <!-- Animate CSS CDN -->
@@ -34,9 +34,10 @@
     <nav>
       <h1>LESLIE LEI</h1>
       <ul class="navigation">
+        <li><a href="#testimonial">Testimonial</a></li>
         <li><a href="#about" class="nav-link">About</a></li>
-        <li><a href="#skills" class="nav-link">Skills</a></li>
         <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
         <li><a href="#contact" class="nav-link">Contact</a></li>
       </ul>
       <button class="burger-menu" id="burger-menu">
@@ -44,8 +45,36 @@
         <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
       </button>
     </nav>
-    
-    <p> 0024 </p>
+    <section class="testimonial" id="testimonial">
+      <div>
+        <p>
+          For the past year, I have worked with Tata Consultancy Services to create a social networking application
+          for individuals over the age of 60 experiencing loneliness.
+        </p>
+      </div>
+      <div>
+        <p><i>"As Leslie's team member, I felt that Leslie was very invested not only in the
+          project itself, but in ensuring good team dynamics and communication. I think she did well in
+          making sure that the project progressed as smoothly as possible while meeting sponsor requirements 
+          and implementing the feedback, staying on top of clarification of work if necessary 
+          and conveying information to the rest of the team."
+        </i></p>
+        <p>Wilbur Phung Loi, Team member</p>
+        <p>INFORMATICS STUDENT, UNIVERSITY OF CALIFORNIA, IRVINE</p>
+        <p><i>"Leslie always showed empathy towards our stakeholders and she genuinely cared about the topic
+          we were handling. When it came to the work, she was always very organized, sending out reminders 
+          and facilitating meetings by staying on top of our deliverables. She often took initiative 
+          on the documentation, and when it came to developing our app, she always stayed on track 
+          with what she needed to do. It was great to have worked with her!"
+        </i></p>
+        <p>Catalina Arreola Armenta, Team member</p>
+        <p>SOFTWARE ENGINEERING STUDENT, UNIVERSITY OF CALIFORNIA, IRVINE</p>
+        <p>_quote in italics_</p>
+       <p>_name in bold like matthew bray, PH.D._</p>
+       <p>_position in caps like IT DIRECTOR, CT SMALL BUSINESS, WOLTER KLUWER_</p> 
+      </div>
+    </section>
+
 
     <!-- Hero Section -->
     <section class="hero" id="about">
@@ -58,15 +87,40 @@
       <div class="bio animate__animated animate__shakeX">
         <h2 class="bio-title">About Me</h2>
         <p class="bio-text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia sed
-          dolorem fugit sapiente porro veniam pariatur dolore nostrum delectus
-          inventore tempore minus nemo, iste ullam illo laboriosam maiores
-          repudiandae quos!
+          <p>
+            <b>I am a website builder.</b>
+            I have utilized HTML, CSS, and Javascript to design and implement
+            website
+            yelp clone 
+            2 years of experience
+          </p>
+          <p>
+            <b>I am a designer</b>
+            I have utilized Figma to prototype
+          </p>
+          <p>
+            <b>I am also an application developer.</b>
+            I have utilized lucid chart to create UML diagrams and use cases
+            utilized Ionic and Angular to develope mobile application
+            2 years of experience
+          </p>
+          <p>
+            I work to create usable and intuitive software that people enjoy using.
+          </p>
+          <p>
+            <a href="#projects"><b>View my Projects below</b></a>
+          </p>
         </p>
       </div>
     </section>
+    <!-- <p>
+      <img 
+        src="assets/icons/Tata_Consultancy_Services_Logo.svg.png"
+        alt="Tata Consultancy Services Logo"
+        class="icon icon-card">
+    </p> -->
 
-    <!-- More about -->
+    <!-- More about
     <section class="more-about">
       <h2>More About Me</h2>
       <p>
@@ -83,7 +137,62 @@
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
         consequuntur labore? Ea totam voluptas amet!
       </p>
+    </section> -->
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/sunriseConnections.png"
+            alt="social-networking-for-seniors"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Social Networking for Seniors</h3>
+          <p class="project-details">
+            <p>Who - Tata Consultancy Services</p>
+            <p>What - Researching, Designing, Prototyping, Testing, Programming</p>
+            <p>Result - product that Tata Consultancy Services will take and build upon</p>
+          </p>
+          <a href="SunriseConnections.html" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/netflixClone.png"
+            alt="netflic-clone"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Yelp Clone</h3>
+          <p class="project-details">
+            <p>Who - placeholder</p>
+            <p>What - placeholder</p>
+            <p>Result - placeholder</p>
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/cremaWorkshop.png"
+            alt="greeny-earth"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Cafe Locator</h3>
+          <p class="project-details">
+            <p>Who - University of California, Irvine</p>
+            <p>What - Researching, Designing, Workshopping, Prototyping</p>
+            <p>Result - Prototype of application that allows students to filter
+              cafes for availability of outlets, noise level, and open tables
+            </p>
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
     </section>
+
 
     <!-- Skills section -->
     <section class="skills" id="skills">
@@ -130,58 +239,6 @@
             loading="lazy"
             class="icon icon-card"
           />
-        </div>
-      </div>
-    </section>
-
-    <!-- Projects section -->
-    <section class="projects" id="projects">
-      <h2 class="projects-title">Some of my Recent Projects</h2>
-      <div class="projects-container">
-        <div class="project-container project-card">
-          <img
-            src="assets/images/expenseTracker.png"
-            alt="expense-tracker"
-            loading="lazy"
-            class="project-pic"
-          />
-          <h3 class="project-title">Expense Tracker</h3>
-          <p class="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
-          </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
-        </div>
-        <div class="project-container project-card">
-          <img
-            src="assets/images/netflixClone.png"
-            alt="netflic-clone"
-            loading="lazy"
-            class="project-pic"
-          />
-          <h3 class="project-title">Netflix Clone</h3>
-          <p class="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
-          </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
-        </div>
-        <div class="project-container project-card">
-          <img
-            src="assets/images/greenyEarth.png"
-            alt="greeny-earth"
-            loading="lazy"
-            class="project-pic"
-          />
-          <h3 class="project-title">Greeny Earth</h3>
-          <p class="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
-          </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
         </div>
       </div>
     </section>
@@ -239,28 +296,28 @@
 
     <!-- Social accounts - Fixed to the right -->
     <div class="socials">
-      <a href="#" target="_blank"
+      <!-- <a href="#" target="_blank"
         ><img
           src="assets/icons/icons8-twitter-circled.gif"
           alt="Twitter"
           loading="lazy"
           class="socicon"
-      /></a>
-      <a href="#" target="_blank"
+      /></a> -->
+      <!-- <a href="#" target="_blank"
         ><img
           src="assets/icons/icons8-instagram.gif"
           alt="Instagram"
           loading="lazy"
           class="socicon"
-      /></a>
-      <a href="#" target="_blank"
+      /></a> -->
+      <a href="https://www.linkedin.com/in/lesliejlei" target="_blank"
         ><img
           src="assets/icons/icons8-linkedin-circled.gif"
           alt="Linkedin"
           loading="lazy"
           class="socicon"
       /></a>
-      <a href="#" target="_blank"
+      <a href="https://www.github.com/ljlei" target="_blank"
         ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
       /></a>
     </div>
@@ -275,13 +332,13 @@
 
     <!-- Footer section -->
     <footer>
-      <p class="copy">&copy; Copyright 2021</p>
-      <p class="copy">
+      <p class="copy">&copy; Copyright 2024</p>
+      <!-- <p class="copy">
         Built with &#x2661; by
         <a href="https://twitter.com/koladechris" target="_blank"
           >Kolade Chris (Ksound)</a
         >
-      </p>
+      </p> -->
     </footer>
 
     <!-- Website scripts -->
