@@ -114,21 +114,21 @@ nav ul li {
 /* Hero section */
 .hero {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   gap: 2.5rem;
   max-width: 68.75rem;
   margin: auto;
-  
+  /* max-height: 60rem; */
 }
 
 .hero a {
   color: var(--primary-color);
 }
 
-.hero img {
-  height: 37.5rem;
-  width: 37.5rem;
+.hero-img {
+  height: 20rem;
+  width: 20rem;
 }
 
 .bio {
@@ -196,11 +196,11 @@ nav ul li {
 
 .project-pic {
   width: 65%;
-  height: 60%;
+  height: 20%;
 }
 
 .projects-container {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: center;
 }
