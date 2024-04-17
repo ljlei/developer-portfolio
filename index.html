@@ -18,7 +18,7 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="assets/icons/favicon-32x32-LL.png"
+      href="assets/icons/pixelLeslieFavicon.ico"
     />
 
     <!-- Animate CSS CDN -->
@@ -32,12 +32,13 @@
   <body>
     <!-- Navbar -->
     <nav>
-      <h1>LESLIE LEI</h1>
+      <a href="index.html"><h1>LESLIE LEI</h1></a>
       <ul class="navigation">
-        <li><a href="#testimonial">Testimonial</a></li>
-        <li><a href="#about" class="nav-link">About</a></li>
-        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#testimonial">Case Studies</a></li>
+        <li><a href="#testimonial">Testimonials</a></li>
+        <li><a href="leslieLeiCV.html">CV</a></li>
         <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
         <li><a href="#contact" class="nav-link">Contact</a></li>
       </ul>
       <button class="burger-menu" id="burger-menu">
@@ -45,24 +46,13 @@
         <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
       </button>
     </nav>
-    <section class="testimonial" id="testimonial">
-      <div>
+    <section>
+      <div class="past-experience">
         <p>
-          For the past year, I have worked with Tata Consultancy Services to create a social networking application
+          For the past year, I have worked with <b>Tata Consultancy Services</b> to create a social networking app
           for individuals over the age of 60 experiencing loneliness.
         </p>
       </div>
-      <div>
-        <p><i>"I hold Leslie in high regard for the quality of work she produces, and her ability 
-          to elicit the best from the teams she works with. In having worked with Leslie on two 
-          group projects, I have seen her go the extra mile when working on deliverables by 
-          addressing relevant areas they touch upon (beyond minimum requirements) to ensure 
-          completeness in meeting our objectives. With regards to teamwork, Leslie creates a 
-          cohesive work environment within the team by being attentive to all group members' 
-          input and being easy to reach out to when needed."
-        </i></p>
-        <p>Brendan Grant, Team member</p>
-        <p>INFORMATICS STUDENT, UNIVERSITY OF CALIFORNIA, IRVINE</p>
         <!-- wilbur and cat's testimonials -->
         <!-- <p><i>"As Leslie's team member, I felt that Leslie was very invested not only in the
           project itself, but in ensuring good team dynamics and communication. I think she did well in
@@ -89,177 +79,208 @@
 
 
     <!-- Hero Section -->
-    <section>
     <section class="hero" id="about">
-      <!-- class="bio animate__animated animate__shakeX" -->
-      <div class="bio">
+      
+      <div class="bio animate__animated animate__pulse">
         <img
-        src="assets/images/wfh_1.svg"
-        alt="jane-doe"
+        src="assets/images/roundedEdges/MeRounded.png"
+        alt="Leslie with her team members from a previous project"
         loading="lazy"
         class="hero-img"
       />
-        <h2 class="bio-title">About Me</h2>
-        <p class="bio-text">
-          <p>
-            <b>I am a website builder.</b>
-            I have utilized HTML, CSS, and Javascript to design and implement
-            website
-            yelp clone 
-            2 years of experience
-          </p>
-          <p>
-            <b>I am a designer</b>
-            I have utilized Figma to prototype
-          </p>
-          <p>
-            <b>I am also an application developer.</b>
-            I have utilized lucid chart to create UML diagrams and use cases
-            utilized Ionic and Angular to develop mobile applications
-            2 years of experience
-          </p>
-          <p>
-            I work to create usable and intuitive software that people enjoy using.
-          </p>
-          <p>
-            <a href="#projects"><b>Let's work together!</b></a>
-          </p>
+      <h2 class="bio-title">About Me</h2>
+      <p class="bio-text">
+        <p>
+          <b>I am a website builder</b>
+          with 2 years of experience with HTML, CSS, and Javascript.
+        </p>
+        <p>
+          <b>I am a designer</b>
+          with 3 years of experience with designing and prototyping in Figma.
+        </p>
+        <p>
+          <b>I am a software developer</b>
+          with 2 years of experience with Ionic and Angular.
+        </p>
+        <p>
+          I aim for usable and intuitive software that people enjoy using.
+        </p>
+      </p>
+      
+      <!-- Skills -->
+      <h2 class="skill-header">My Top Skills</h2>
+      <div class="skills skills-wrapper" id="skills">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-html-5.svg"
+            alt="HTML5 Icon"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-css3.svg"
+            alt="CSS3 Icon"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-javascript.svg"
+            alt="Javascript Icon"
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/angular-icon-2048x2048-24b236vf.png"
+            alt="Angular Icon"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/6132222.png"
+            alt="C++ Icon"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/python-icon-512x512-88yv7xw6.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+        <p class="work-tgt-wrapper">
+          <a href="#contact" class="work-tgt-link"><b>Let's work together!</b></a>
         </p>
       </div>
+    </div>
       
       <!-- Projects section -->
       <!-- <section class="projects" id="projects"> -->
         <!-- <h2 class="projects-title">Recent Projects</h2> -->
+        
         <div class="projects-container">
-          <div class="project-container project-card">
-            <img
-              src="assets/images/roundedEdges/sunriseConnectionsRounded.png"
-              alt="social-networking-for-seniors"
-              loading="lazy"
-              class="project-pic"
-            />
-            <h3 class="project-title">Social Networking for Seniors</h3>
-            <p class="project-details">
-              <p>Who - Tata Consultancy Services</p>
-              <p>What - Researching, Designing, Prototyping, Testing, Programming</p>
-              <p>Result - product that Tata Consultancy Services will take and build upon</p>
-            </p>
-            <a href="SunriseConnections.html" target="_blank" class="project-link">Check it Out</a>
+          <!-- Testimonial Section -->
+      
+          <p class="testimonial" id="testimonial"><i>"I hold Leslie in high regard for her quality of work. She has gone the extra mile beyond the minimum requirements to meet our objectives. 
+            Leslie is attentive to all group members' input and easy 
+            to reach out to when needed."
+          </i></p>
+          <p class="testimonial" id="testimonial-giver">Brendan Grant, Team member</p>
+          <p class="testimonial" id="testimonial-position">INFORMATICS STUDENT, UNIVERSITY OF CALIFORNIA, IRVINE</p>
+        
+          <div class="project-container project-card  animate__animated animate__pulse">
+            <table>
+              <tr>
+                <td class="project-pic-container">
+                  <img
+                  src="assets/images/roundedEdges/sunriseConnectionsRounded.png"
+                  alt="social-networking-for-seniors"
+                  loading="lazy"
+                  class="project-pic"
+                />
+                </td>
+                <td>
+                  <h3 class="project-title">Social Networking for Seniors</h3>
+                  <table class="project-details">
+                    <tr>
+                      <td class="result-details">WHO</td>
+                      <td class="result-details">Tata Consultancy Services</td>
+                    </tr>
+                    <tr>
+                      <td class="result-details">WHAT</td>
+                      <td class="result-details">Researching, Designing, Prototyping, Testing, Programming</td>
+                    </tr>
+                    <tr>
+                      <td class="result-details">RESULT</td>
+                      <td class="result-details">Product that Tata Consultancy Services will take and build upon</td>
+                    </tr>
+                  </table>
+                  <a href="SunriseConnections.html" target="_blank" class="project-link"><b>Check it Out <span>&#8250;</span></b></a>
+                </td>
+              </tr>
+            </table>
+            
+            
           </div>
-          <div class="project-container project-card">
-            <img
-              src="assets/images/roundedEdges/self-defoggingGlassesSketch2Rounded.png"
-              alt="netflic-clone"
-              loading="lazy"
-              class="project-pic"
-            />
-            <!-- <h3 class="project-title">Yelp Clone</h3>
-            <p class="project-details">
-              <p>Who - placeholder</p>
-              <p>What - placeholder</p>
-              <p>Result - placeholder</p>
-            </p> -->
-            <h3 class="project-title">Self-defogging Glasses</h3>
-            <p class="project-details">
-              <p>Who - University of California, Irvine</p>
-              <p>What - Researching, Designing, Workshopping, Mock-uping</p>
-              <p>Result - Competitive analysis, Mock-ups for the design</p>
-            </p>
-            <a href="#" target="_blank" class="project-link">Check it Out</a>
+          <div class="project-container project-card  animate__animated animate__pulse">
+            <table>
+              <tr>
+                <td class="project-pic-container">
+                  <img
+                  src="assets/images/roundedEdges/self-defoggingGlassesSketch2Rounded.png"
+                  alt="self-defogging-glasses-mockup"
+                  loading="lazy"
+                  class="project-pic"
+                  /> 
+                </td>
+                <td>
+                  <h3 class="project-title">Self-defogging Glasses</h3>
+                  <table class="project-details">
+                    <tr>
+                      <td class="result-details">WHO</td>
+                      <td class="result-details">University of California, Irvine</td>
+                    </tr>
+                    <tr>
+                      <td class="result-details">WHAT</td>
+                      <td class="result-details">Researching, Designing, Workshopping, Mock-uping</td>
+                    </tr>
+                    <tr>
+                      <td class="result-details">RESULT</td>
+                      <td class="result-details">Competitive analysis, Mock-ups for the design</td>
+                    </tr>
+                  </table>
+                  <a href="#" target="_blank" class="project-link"><b>Check it Out <span>&#8250;</span></b></a>
+                </td>
+              </tr>
+            </table>
+            
+            
           </div>
-          <div class="project-container project-card">
-            <img
-              src="assets/images/roundedEdges/cremaWorkshopRounded.png"
-              alt="greeny-earth"
-              loading="lazy"
-              class="project-pic"
-            />
-            <h3 class="project-title">Cafe Locator</h3>
-            <p class="project-details">
-              <p>Who - University of California, Irvine</p>
-              <p>What - Researching, Designing, Wireframing, Workshopping, Mock-uping</p>
-              <p>Result - Prototype of application that allows students to filter
-                cafes for availability of outlets, noise level, and open tables
-              </p>
-            </p>
-            <a href="#" target="_blank" class="project-link">Check it Out</a>
+          <div class="project-container project-card  animate__animated animate__pulse">
+            <table>
+              <tr>
+                <td class="project-pic-container">
+                  <img
+                  src="assets/images/roundedEdges/cremaWorkshopRounded.png"
+                  alt="crema-app-workshop-session"
+                  loading="lazy"
+                  class="project-pic"
+                  />
+                </td>
+                <td>
+                  <h3 class="project-title">Cafe Locator</h3>
+                  <table class="project-details">
+                    <tr>
+                      <td class="result-details">WHO</td>
+                      <td class="result-details">University of California, Irvine</td>
+                    </tr>
+                    <tr>
+                      <td class="result-details">WHAT</td>
+                      <td class="result-details">Researching, Designing, Wireframing, Workshopping, Mock-uping</td>
+                    </tr>
+                    <tr>
+                      <td class="result-details">RESULT</td>
+                      <td class="result-details">Prototype of application that allows students to filter
+                      cafes for availability of outlets, noise level, and open tables</td>
+                    </tr>
+                  </table>
+                  <a href="#" target="_blank" class="project-link"><b>Check it Out <span>&#8250;</span></b></a>
+                </td>
+              </tr>
+            </table>
+            
+            
           </div>
         </div>
-      <!-- </section> -->
 
     </section>
-  </section>
-    <!-- <p>
-      <img 
-        src="assets/icons/Tata_Consultancy_Services_Logo.svg.png"
-        alt="Tata Consultancy Services Logo"
-        class="icon icon-card">
-    </p> -->
-
-    <!-- Projects section
-    <section class="projects" id="projects">
-      <h2 class="projects-title">Recent Projects</h2>
-      <div class="projects-container">
-        <div class="project-container project-card">
-          <img
-            src="assets/images/roundedEdges/sunriseConnectionsRounded.png"
-            alt="social-networking-for-seniors"
-            loading="lazy"
-            class="project-pic"
-          />
-          <h3 class="project-title">Social Networking for Seniors</h3>
-          <p class="project-details">
-            <p>Who - Tata Consultancy Services</p>
-            <p>What - Researching, Designing, Prototyping, Testing, Programming</p>
-            <p>Result - product that Tata Consultancy Services will take and build upon</p>
-          </p>
-          <a href="SunriseConnections.html" target="_blank" class="project-link">Check it Out</a>
-        </div>
-        <div class="project-container project-card">
-          <img
-            src="assets/images/roundedEdges/self-defoggingGlassesSketch2Rounded.png"
-            alt="netflic-clone"
-            loading="lazy"
-            class="project-pic"
-          />
-           <h3 class="project-title">Yelp Clone</h3>
-          <p class="project-details">
-            <p>Who - placeholder</p>
-            <p>What - placeholder</p>
-            <p>Result - placeholder</p>
-          </p>
-          <h3 class="project-title">Self-defogging Glasses</h3>
-          <p class="project-details">
-            <p>Who - University of California, Irvine</p>
-            <p>What - Researching, Designing, Workshopping, Mock-uping</p>
-            <p>Result - Competitive analysis, Mock-ups for the design</p>
-          </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
-        </div>
-        <div class="project-container project-card">
-          <img
-            src="assets/images/roundedEdges/cremaWorkshopRounded.png"
-            alt="greeny-earth"
-            loading="lazy"
-            class="project-pic"
-          />
-          <h3 class="project-title">Cafe Locator</h3>
-          <p class="project-details">
-            <p>Who - University of California, Irvine</p>
-            <p>What - Researching, Designing, Wireframing, Workshopping, Mock-uping</p>
-            <p>Result - Prototype of application that allows students to filter
-              cafes for availability of outlets, noise level, and open tables
-            </p>
-          </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
-        </div>
-      </div>
-    </section> -->
-
 
     <!-- Skills section -->
     <section class="skills" id="skills">
-      <h2 class="skill-header">My Top Skills</h2>
+      <!-- <h2 class="skill-header">My Top Skills</h2>
 
       <div class="skills-wrapper">
         <div class="first-set animate__animated animate__pulse">
@@ -303,7 +324,7 @@
             class="icon icon-card"
           />
         </div>
-      </div>
+      </div> -->
     </section>
 
     <!-- Contact section -->
