@@ -34,9 +34,9 @@
     <nav>
       <a href="index.html"><h1>LESLIE LEI</h1></a>
       <ul class="navigation">
-        <li><a href="#testimonial">Case Studies</a></li>
-        <li><a href="#testimonial">Testimonials</a></li>
-        <li><a href="leslieLeiCV.html">CV</a></li>
+        <li><a href="#testimonial-giver">Case Studies</a></li>
+        <li><a href="#past-experience">Testimonials</a></li>
+        <li><a href="leslieLeiCV.html">Resume</a></li>
         <li><a href="#skills" class="nav-link">Skills</a></li>
         <li><a href="#about" class="nav-link">About</a></li>
         <li><a href="#contact" class="nav-link">Contact</a></li>
@@ -47,7 +47,7 @@
       </button>
     </nav>
     <section>
-      <div class="past-experience">
+      <div class="past-experience" id="past-experience">
         <p>
           For the past year, I have worked with <b>Tata Consultancy Services</b> to create a social networking app
           for individuals over the age of 60 experiencing loneliness.
@@ -88,7 +88,7 @@
         loading="lazy"
         class="hero-img"
       />
-      <h2 class="bio-title">About Me</h2>
+      <h2 class="bio-title" id="about-me">About Me</h2>
       <p class="bio-text">
         <p>
           <b>I am a website builder</b>
@@ -102,14 +102,14 @@
           <b>I am a software developer</b>
           with 2 years of experience with Ionic and Angular.
         </p>
-        <p>
+        <p id="skills">
           I aim for usable and intuitive software that people enjoy using.
         </p>
       </p>
       
       <!-- Skills -->
-      <h2 class="skill-header">My Top Skills</h2>
-      <div class="skills skills-wrapper" id="skills">
+      <h2 class="skill-header" id="top-skills">My Top Skills</h2>
+      <div class="skills skills-wrapper" >
         <div class="first-set animate__animated animate__pulse">
           <img
             src="assets/icons/icons8-html-5.svg"
@@ -181,9 +181,10 @@
                   loading="lazy"
                   class="project-pic"
                 />
+                <a href="SunriseConnections.html" target="_blank" class="project-link" id="sunrise-link"><b>Check it Out <span>&#8250;</span></b></a>
                 </td>
                 <td>
-                  <h3 class="project-title">Social Networking for Seniors</h3>
+                  <h2 class="project-title">Social Networking for Seniors</h2>
                   <table class="project-details">
                     <tr>
                       <td class="result-details">WHO</td>
@@ -195,10 +196,14 @@
                     </tr>
                     <tr>
                       <td class="result-details">RESULT</td>
-                      <td class="result-details">Product that Tata Consultancy Services will take and build upon</td>
+                      <td class="result-details">Product that Tata Consultancy Services will take and build</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td class="result-details">upon</td>
                     </tr>
                   </table>
-                  <a href="SunriseConnections.html" target="_blank" class="project-link"><b>Check it Out <span>&#8250;</span></b></a>
+                  
                 </td>
               </tr>
             </table>
@@ -215,9 +220,10 @@
                   loading="lazy"
                   class="project-pic"
                   /> 
+                  <a href="#" target="_blank" class="project-link"><b>Check it Out <span>&#8250;</span></b></a>
                 </td>
                 <td>
-                  <h3 class="project-title">Self-defogging Glasses</h3>
+                  <h2 class="project-title">Self-defogging Glasses</h2>
                   <table class="project-details">
                     <tr>
                       <td class="result-details">WHO</td>
@@ -232,7 +238,7 @@
                       <td class="result-details">Competitive analysis, Mock-ups for the design</td>
                     </tr>
                   </table>
-                  <a href="#" target="_blank" class="project-link"><b>Check it Out <span>&#8250;</span></b></a>
+                  
                 </td>
               </tr>
             </table>
@@ -249,9 +255,10 @@
                   loading="lazy"
                   class="project-pic"
                   />
+                  <a href="#" target="_blank" class="project-link"><b>Check it Out <span>&#8250;</span></b></a>
                 </td>
                 <td>
-                  <h3 class="project-title">Cafe Locator</h3>
+                  <h2 class="project-title">Cafe Locator</h2>
                   <table class="project-details">
                     <tr>
                       <td class="result-details">WHO</td>
@@ -264,10 +271,14 @@
                     <tr>
                       <td class="result-details">RESULT</td>
                       <td class="result-details">Prototype of application that allows students to filter
-                      cafes for availability of outlets, noise level, and open tables</td>
+                      cafes </td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td class="result-details">for availability of outlets, noise level, and open tables</td>
                     </tr>
                   </table>
-                  <a href="#" target="_blank" class="project-link"><b>Check it Out <span>&#8250;</span></b></a>
+                  
                 </td>
               </tr>
             </table>
@@ -329,7 +340,7 @@
 
     <!-- Contact section -->
     <section class="contact" id="contact">
-      <h2>Get In Touch With Me</h2>
+      <h2 id="reach-out">Get In Touch With Me</h2>
       <div class="contact-form-container">
         <div class="contact-form">
           <form action="https://formspree.io/f/xyylnggw" method="POST">
