@@ -579,3 +579,25 @@ p {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+
+/* testimonials section */
+.testimonials {
+  
+}
+
+/* case study page */
+.caseStudy {
+  width: 50rem;
+  margin: auto;
+  text-align: center;
+}
+
+.caseStudy h1, h2, h3 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.caseStudy img {
+  text-align: center;
+  width: 30rem;
+}
