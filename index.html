@@ -34,12 +34,22 @@
     <nav>
       <a href="index.html"><h1>LESLIE LEI</h1></a>
       <ul class="navigation">
-        <li><a href="#testimonial-giver">Case Studies</a></li>
+        <li>
+          <!-- dropdown case studies -->
+          <div class="dropdown">
+              <a class="dropbtn">Case Studies</a>
+              <div class="dropdown-content">
+                  <a href="SunriseConnections.html">SNS for Seniors</a>
+                  <a href="CafeLocator.html">Cafe Locator</a>
+                  <a href="SelfDefoggingGlasses.html">Self-defogging Glasses</a>
+              </div>
+          </div>
+        </li>
         <!-- <li><a href="#past-experience">Testimonials</a></li> -->
         <li><a href="testimonials.html">Testimonials</a></li>
         <li><a href="leslieLeiCV.html">Resume</a></li>
-        <li><a href="#skills" class="nav-link">Skills</a></li>
-        <li><a href="#about" class="nav-link">About</a></li>
+        <!-- <li><a href="#skills" class="nav-link">Skills</a></li> -->
+        <li><a href="about.html" class="nav-link">About</a></li>
         <li><a href="#contact" class="nav-link">Contact</a></li>
       </ul>
       <button class="burger-menu" id="burger-menu">
@@ -54,27 +64,6 @@
           for individuals over the age of 60 experiencing loneliness.
         </p>
       </div>
-        <!-- wilbur and cat's testimonials -->
-        <!-- <p><i>"As Leslie's team member, I felt that Leslie was very invested not only in the
-          project itself, but in ensuring good team dynamics and communication. I think she did well in
-          making sure that the project progressed as smoothly as possible while meeting sponsor requirements 
-          and implementing the feedback, staying on top of clarification of work if necessary 
-          and conveying information to the rest of the team."
-        </i></p>
-        <p>Wilbur Phung Loi, Team member</p>
-        <p>INFORMATICS STUDENT, UNIVERSITY OF CALIFORNIA, IRVINE</p>
-        <p><i>"Leslie always showed empathy towards our stakeholders and she genuinely cared about the topic
-          we were handling. When it came to the work, she was always very organized, sending out reminders 
-          and facilitating meetings by staying on top of our deliverables. She often took initiative 
-          on the documentation, and when it came to developing our app, she always stayed on track 
-          with what she needed to do. It was great to have worked with her!"
-        </i></p>
-        <p>Catalina Arreola Armenta, Team member</p>
-        <p>SOFTWARE ENGINEERING STUDENT, UNIVERSITY OF CALIFORNIA, IRVINE</p> -->
-        <!-- formatting -->
-        <!-- <p>_quote in italics_</p>
-       <p>_name in bold like matthew bray, PH.D._</p>
-       <p>_position in caps like IT DIRECTOR, CT SMALL BUSINESS, WOLTER KLUWER_</p>  -->
       </div>
     </section>
 
@@ -84,7 +73,7 @@
       
       <div class="bio animate__animated animate__pulse">
         <img
-        src="assets/images/roundedEdges/MeRounded.png"
+        src="assets/images/sunriseConnections/Me.png"
         alt="Leslie with her team members from a previous project"
         loading="lazy"
         class="hero-img"
@@ -177,7 +166,7 @@
               <tr>
                 <td class="project-pic-container">
                   <img
-                  src="assets/images/roundedEdges/sunriseConnectionsRounded.png"
+                  src="assets/images/sunriseConnections/sunriseConnections.png"
                   alt="social-networking-for-seniors"
                   loading="lazy"
                   class="project-pic"
@@ -193,7 +182,7 @@
                     </tr>
                     <tr>
                       <td class="result-details">WHAT</td>
-                      <td class="result-details">Researching, Designing, Prototyping, Testing, Programming</td>
+                      <td class="result-details">Researching, Prototyping, Testing, Programming</td>
                     </tr>
                     <tr>
                       <td class="result-details">RESULT</td>
@@ -211,47 +200,13 @@
             
             
           </div>
+          
           <div class="project-container project-card  animate__animated animate__pulse">
             <table>
               <tr>
                 <td class="project-pic-container">
                   <img
-                  src="assets/images/roundedEdges/self-defoggingGlassesSketch2Rounded.png"
-                  alt="self-defogging-glasses-mockup"
-                  loading="lazy"
-                  class="project-pic"
-                  /> 
-                  <a href="SelfDefoggingGlasses.html" target="_blank" class="project-link"><b>Check it Out <span>&#8250;</span></b></a>
-                </td>
-                <td>
-                  <h2 class="project-title">Self-defogging Glasses</h2>
-                  <table class="project-details">
-                    <tr>
-                      <td class="result-details">WHO</td>
-                      <td class="result-details">University of California, Irvine</td>
-                    </tr>
-                    <tr>
-                      <td class="result-details">WHAT</td>
-                      <td class="result-details">Researching, Designing, Workshopping, Mock-uping</td>
-                    </tr>
-                    <tr>
-                      <td class="result-details">RESULT</td>
-                      <td class="result-details">Competitive analysis, Mock-ups for the design</td>
-                    </tr>
-                  </table>
-                  
-                </td>
-              </tr>
-            </table>
-            
-            
-          </div>
-          <div class="project-container project-card  animate__animated animate__pulse">
-            <table>
-              <tr>
-                <td class="project-pic-container">
-                  <img
-                  src="assets/images/roundedEdges/cremaWorkshopRounded.png"
+                  src="assets/images/cafeLocator/cremaWorkshop.png"
                   alt="crema-app-workshop-session"
                   loading="lazy"
                   class="project-pic"
@@ -267,7 +222,7 @@
                     </tr>
                     <tr>
                       <td class="result-details">WHAT</td>
-                      <td class="result-details">Researching, Designing, Wireframing, Workshopping, Mock-uping</td>
+                      <td class="result-details">Researching, Prototyping, Workshopping, Mock-uping</td>
                     </tr>
                     <tr>
                       <td class="result-details">RESULT</td>
@@ -277,6 +232,41 @@
                     <tr>
                       <td></td>
                       <td class="result-details">for availability of outlets, noise level, and open tables</td>
+                    </tr>
+                  </table>
+                  
+                </td>
+              </tr>
+            </table>
+            
+            
+          </div>
+          <div class="project-container project-card  animate__animated animate__pulse">
+            <table>
+              <tr>
+                <td class="project-pic-container">
+                  <img
+                  src="assets/images/defoggingGlasses/glassesSketch2.png"
+                  alt="self-defogging-glasses-mockup"
+                  loading="lazy"
+                  class="project-pic"
+                  /> 
+                  <a href="SelfDefoggingGlasses.html" target="_blank" class="project-link"><b>Check it Out <span>&#8250;</span></b></a>
+                </td>
+                <td>
+                  <h2 class="project-title">Self-defogging Glasses</h2>
+                  <table class="project-details">
+                    <tr>
+                      <td class="result-details">WHO</td>
+                      <td class="result-details">University of California, Irvine</td>
+                    </tr>
+                    <tr>
+                      <td class="result-details">WHAT</td>
+                      <td class="result-details">Researching, Prototyping, Mock-uping</td>
+                    </tr>
+                    <tr>
+                      <td class="result-details">RESULT</td>
+                      <td class="result-details">Competitive analysis, Mock-ups for the design</td>
                     </tr>
                   </table>
                   

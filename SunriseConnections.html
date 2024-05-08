@@ -32,12 +32,21 @@
      <nav>
         <a href="index.html"><h1>LESLIE LEI</h1></a>
         <ul class="navigation">
-          <li><a href="#testimonial-giver">Case Studies</a></li>
-          <li><a href="testimonials.html">Testimonials</a></li>
-          <li><a href="leslieLeiCV.html">Resume</a></li>
-          <li><a href="#skills" class="nav-link">Skills</a></li>
-          <li><a href="#about" class="nav-link">About</a></li>
-          <li><a href="#contact" class="nav-link">Contact</a></li>
+            <li>
+                <!-- dropdown case studies -->
+                <div class="dropdown">
+                    <a class="dropbtn">Case Studies</a>
+                    <div class="dropdown-content">
+                        <a href="SunriseConnections.html">SNS for Seniors</a>
+                        <a href="CafeLocator.html">Cafe Locator</a>
+                        <a href="SelfDefoggingGlasses.html">Self-defogging Glasses</a>
+                    </div>
+                </div>
+            </li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="leslieLeiCV.html">Resume</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
         <button class="burger-menu" id="burger-menu">
           <ion-icon class="bars" name="menu-outline"></ion-icon>
@@ -47,7 +56,8 @@
 
       <div class="case-study">
         <h1 class="case-study-title">Sunrise Connections Web App</h1>
-        <span class="overview">
+        <p id="role"><b>My Role:</b> UI/UX Designer, Project Manager</p>
+        <span id="overview">
             <h2>Overview</h2>
             <p>Accessibility first, not an after-thought. My team worked with Tata Consultancy to create  
                 a social networking platform where older individuals experiencing loneliness to connect 
@@ -60,8 +70,8 @@
             alt="Four screens of the app including home, forum, resources, and calendar"
             id="project-title-img"
         >
-        <div>
-            <span class="problem-challenge">
+        <div class="problem-challenge">
+            <span class="problem">
                 <h2 class="problem-title">The Problem</h2>
                 <p class="problem-title">
                     Nearly 25% of adults aged 65 and older are considered to be socially isolated. Older adults 
@@ -75,17 +85,17 @@
                     alt="Nearly 25% of adults aged 65 and older are considered to be socially isolated"
                 > -->
             </span>
-            <span>
-                <h2 class="challenge-title">The Challenge</h2>
+            <span class="challenge">
+                <h2>The Challenge</h2>
                 <p class="challenge-title">
                     My team was tasked with creating a technology-based solution to increased loneliness observed 
                     in individuals aged 60 and older. Our solution had to not only accommodate needs specific to 
                     this age group, but also encourage social interaction amongst its users.
                 </p>
-                <h2>My Role</h2>
+                <!-- <h2>My Role</h2>
                 <p>
                     UI/UX Designer, Project Manager
-                </p>
+                </p> -->
             </span>
             
         </div>
@@ -198,6 +208,7 @@
             <img 
                 src="assets/images/sunriseConnections/finalScreens.png" 
                 alt="Four screens of the app including home, forum, resources, and calendar"
+                id="finalImg"
             >
         </div>
         
